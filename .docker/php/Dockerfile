@@ -52,7 +52,7 @@ ENV XDEBUG_EXPOSE_PORT ${XDEBUG_PORT:-9000}
 EXPOSE $XDEBUG_EXPOSE_PORT
 
 # configure app folder
-ENV WORK_DIR ${WORK_DIR:-/www/project}
+ENV WORK_DIR ${WORK_DIR:-/www/project/src}
 WORKDIR $WORK_DIR
 
 # Install Composer
